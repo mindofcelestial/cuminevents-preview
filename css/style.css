@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+.page1 {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.page2 {
+  height: 100vh;
+  box-sizing: border-box;
+  background: black;
+  text-decoration: none;
+}
+
+.h-text a {
+  text-decoration: none;
+}
+
+.h-text h2:hover {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.h-text a h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.stream-link {
+  text-align: center;
+  padding-top: 80vh;
+  padding-left: 20px;
+  opacity: 1;
+  display: inline-block;
+}
+
+.stream-link a {
+  font-family: 'Josefin Sans', sans-serif;
+  border: solid 2px white;
+  border-radius: 5%;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
+
+.stream-link a:hover {
+  background-color: #90221F;
+  border: solid 2px #90221F;
+}
+
+
+
+.artwork {
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.fullscreen-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.fullscreen-bg_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Add to maintain aspect ratio
+  width: 100%;
+  height: 100%; */
+}
+
+.img-preview {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.page3 {
+  height: 65vh;
+  box-sizing: border-box;
+  background: black;
+  text-decoration: none;
+}
+
+.contact-title {
+  text-align: center;
+  color: white;
+  padding-top: 10vh;
+}
+
+.contact-title h1 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 24px;
+}
+
+form {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #976F24;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: 'Mukta', sans-serif;
+}
+
+form .submit:hover {
+  background-color: #E4A736;
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'Mukta', sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text a {
+  font-family: 'Mukta', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.mobile-nav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.mobile-nav #myLinks {
+  display: none;
+}
+
+.mobile-nav a {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+  color: black;
+  text-align: center;
+}
+
+.mobile-nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.mhomeartwork {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.streambtn {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.streambtn p {
+  font-size: 1.5em;
+  display: inline;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.streambtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.streambtn a:hover {
+  text-decoration: line-through;
+}
+
+.mdisc {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-top: 75px;
+  padding-bottom: 110px;
+  text-decoration: none;
+}
+
+.mdisc h1 {
+  padding-bottom: 20px;
+}
+
+.mdisc p {
+  padding-top: 50px;
+}
+
+.mdisc a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.mdisc a:hover {
+  text-decoration: line-through;
+  color: grey;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .page-wrap {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .page-wrap {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .page-wrap {
+    display: inline;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+}
